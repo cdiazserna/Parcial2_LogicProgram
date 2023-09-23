@@ -8,6 +8,7 @@ public class parial2
         int numeroAleatorio;
         int numeroIngresado;
         int numeroJugadores;
+        int rangoMaximo;
         int turno;
         bool ganador;
         string respuesta;
@@ -29,8 +30,36 @@ public class parial2
                 numeroJugadores = Convert.ToInt32(Console.ReadLine());
             }
 
-           
-          
+            switch (numeroJugadores)
+            {
+                case 2:
+                    rangoMaximo = 50;
+                    break;
+                case 3:
+                    rangoMaximo = 100;
+                    break;
+                case 4:
+                    rangoMaximo = 200;
+                    break;
+                default:
+                    rangoMaximo = 0;
+                    break;
+
+            }
+            do
+            {
+                numeroAleatorio = random.Next(0, rangoMaximo + 1);
+
+                turno = 1;
+                ganador = false;
+
+
+            }
+
+
+
+
+
 
 
 
