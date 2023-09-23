@@ -1,0 +1,14 @@
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.csproj.AssemblyReference.cache
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.AssemblyInfoInputs.cache
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.AssemblyInfo.cs
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.csproj.CoreCompileInputs.cache
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\bin\Debug\netcoreapp3.1\JuegoParcial2.exe
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\bin\Debug\netcoreapp3.1\JuegoParcial2.deps.json
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\bin\Debug\netcoreapp3.1\JuegoParcial2.runtimeconfig.json
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\bin\Debug\netcoreapp3.1\JuegoParcial2.runtimeconfig.dev.json
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\bin\Debug\netcoreapp3.1\JuegoParcial2.dll
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\bin\Debug\netcoreapp3.1\JuegoParcial2.pdb
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.dll
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.pdb
+C:\Users\salak404.SALASFR\Desktop\Dubier\JuegoParcial2\JuegoParcial2\obj\Debug\netcoreapp3.1\JuegoParcial2.genruntimeconfig.cache

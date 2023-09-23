@@ -8,14 +8,23 @@ namespace JuegoParcial2
         {
             //declaración de variables
 
-            double numero, _intento, participantes;
+            double  intento, participantes;
+            bool iniciar = true;
             
             Random numero = new Random();
 
             Console.WriteLine("______JUEGO ADIVINA EL NÚMERO_______");
 
             Console.WriteLine("Escribe la cantidad de participantes: ");
-            while ();
+            participantes = Convert.ToInt32(Console.ReadLine());
+
+            if (participantes <1 )
+            {
+
+
+            }
+
+            while () ;
                {
 
 
