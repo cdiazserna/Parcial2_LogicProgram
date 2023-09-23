@@ -32,10 +32,10 @@
 
             while (jugarOtraVez)
             {
-                Console.WriteLine("Bienvenido a Adivina el número");
+                Console.WriteLine("Bienvenido a ¡Adivina el número!");
 
                 // Paso 1: Solicitar al usuario la cantidad de jugadores
-                Console.Write("Ingrese la cantidad de jugadores (entre 2 y 4): ");
+                Console.Write("Ingrese la cantidad de jugadores, minimo 2 y maximo 4): ");
                 int numJugadores = int.Parse(Console.ReadLine());
 
                 if (numJugadores < 2 || numJugadores > 4)
@@ -69,25 +69,51 @@
 
                 Console.WriteLine($"Se ha generado un número entre 0 y {rangoMaximo}. ¡Adivina el número!");
 
+                // Paso 4: Iniciar el juego
+                while (!haGanado)
+                {
+                    for (int jugador = 1; jugador <= numJugadores; jugador++)
+                    {
+                        // Paso 5: Solicitar al jugador su intento
+                        Console.Write($"Jugador {jugador}, ingrese su número: ");
+                        int intento = int.Parse(Console.ReadLine());
+                        intentos++;
 
+                        // Paso 6: Comparar el intento con el número secreto
+                        if (intento == numeroSecreto)
+                        {
+                            Console.WriteLine($"¡Felicitaciones, Jugador {jugador}! ¡HA GANADO en {intentos} intentos!");
+                            haGanado = true;
+                            break;
+                        }
 
-            } 
+                        else if (intento < numeroSecreto)
+                        {
+                            Console.WriteLine("MAYOR");
+                        }
+                        else
+                        {
+                            Console.WriteLine("MENOR");
+                        }
+                    }
 
+                    // Paso 7: Verificar si ningún jugador ha adivinado y continuar el juego
+                    if (!haGanado)
+                    {
+                        Console.WriteLine("Ningún jugador ha adivinado el número. Continúa el juego.");
+                    }
+                }
 
+                // Paso 8: Preguntar a los jugadores si desean jugar otra vez
+                Console.Write("¿Desean jugar otra vez? (S/N): ");
+                string respuesta = Console.ReadLine();
+                jugarOtraVez = respuesta.ToUpper() == "S";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+                // Paso 9: Borrar la consola para un nuevo juego
+                Console.Clear();
+            }
+            // Paso 10: Finalizar el programa
+            Console.WriteLine("¡Gracias por jugar espero que lo haya disfrutado!");
 
         }
     }
