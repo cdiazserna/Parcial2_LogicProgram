@@ -78,7 +78,7 @@ public class JuegoParcial2
                     Console.WriteLine("HAS GANADO");
                 }
             }
-            Console.WriteLine(String.Format("Desea jugar de nuevo? (s/n)");
+            Console.WriteLine(String.Format("Desea jugar de nuevo? (s/n)"));
             respuesta = Console.ReadLine();
 
             if (respuesta == "s") ;
