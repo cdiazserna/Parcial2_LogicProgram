@@ -4,14 +4,26 @@
   rango  y lo guarda  en memoriasin ser revelado.*/
 
 
-public class Ejercicio16
+
+public class JuegoParcial2
 {
 
     static void Main(string[] args)
 
-    {
-        Console.WriteLine("Ingresa el numero de jugadores: ");
-       
-    }
+        {
+        Console.WriteLine("Adivina el número");
+        Console.WriteLine("Ingrese la cantidad de jugadores entre 2 y 4:");
 
+        int cantidadJugadores = ObtenerCantidadJugadores();
+
+        int rangoMaximo = CalcularRangoMaximo(cantidadJugadores);
+        int numeroAdivinar = GenerarNumeroAleatorio(rangoMaximo);
+
+        int turno = 1;
+        int jugadorActual = 1;
+        bool Ganaste = false;
+
+        while (!Ganaste)
+        
+    }
 }
