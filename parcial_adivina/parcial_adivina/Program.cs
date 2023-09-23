@@ -7,13 +7,13 @@
         bool jugarVariable = true, partidaIniciada = true;
         Random aleatorio = new Random();
 
-        Console.WriteLine("Cantidad de integrantes para jugar es de minimo 2 maximo 4");
-        cantJugadores = Convert.ToInt32(Console.ReadLine());
+        
         do
         {
-            
-            
-            
+
+            Console.WriteLine("Cantidad de integrantes para jugar es de minimo 2 maximo 4");
+            cantJugadores = Convert.ToInt32(Console.ReadLine());
+
             if (cantJugadores >= 2 && cantJugadores <= 4)
             {
 
