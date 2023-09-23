@@ -46,14 +46,29 @@ public class parial2
                     break;
 
             }
-            do
+            
             {
                 numeroAleatorio = random.Next(0, rangoMaximo + 1);
 
                 turno = 1;
                 ganador = false;
 
+                Console.WriteLine($"el sistema a escogido entre 0 y {rangoMaximo}. intenta adivinarlo:");
+                while(!ganador && turno <= numeroJugadores)
+                {
+                    Console.WriteLine($"Jugador {turno}, ingresa un número:");
+                    numeroIngresado = int.Parse(Console.ReadLine());
+                    if (numeroIngresado == numeroAleatorio)
+                    {
 
+                        Console.WriteLine("¡HAS GANADO!");
+                        ganador = true;
+
+                    }
+
+
+
+                }
             }
 
 
