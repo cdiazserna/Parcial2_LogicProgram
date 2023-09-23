@@ -111,6 +111,7 @@ namespace Parcial2
                 Console.WriteLine("\n");
                 nuevoTiro = Convert.ToString(Console.ReadLine());
 
+                
                 if (nuevoTiro == "SI")
                 {
                     newCod = true;
