@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Threading.Tasks;
 
 //Desarrollar el juego “Adivina el número” en un programa de C#. El juego es muy sencillo,
@@ -12,9 +13,8 @@ namespace Parcial2
         static void Main(string[] args)
         {
             //Declaracion de variables
-            int numeroInte;
-            double numN;
-
+            int numeroInte, numN;
+            
             //Generar numero aleatorio
 
             Console.WriteLine("BIENVENIDO AL JUEGO");
@@ -22,7 +22,7 @@ namespace Parcial2
             Console.Write("Por favor ingresar el numero de integrantes que desea participar: ");
             numeroInte = Convert.ToInt32(Console.ReadLine());
             Random Random = new Random();
-            if (numeroInte < 1) 
+            if (numeroInte < 2) 
             {
                 Console.Write("El numero de integrantes debe ser mayor a 2 y menor a 4");
                 Console.Write("Por favor ingresar el numero de integrantes que desea participar: ");
@@ -30,13 +30,38 @@ namespace Parcial2
             }
             else 
             {
-            if (numeroInte  == 2) { tasa = Random.Next(1, 51);
+                if (numeroInte > 4)
+                {
+                    Console.WriteLine("El numero de integrantes debe ser mayor o igual a 2 y menor o igual a 4");
+                    Console.WriteLine("Por favor ingresar el numero de integrantes que desea participar: ");
+                    numeroInte = Convert.ToInt32(Console.ReadLine());
+
+                                 
                 }
             }
-            Random Random = new Random();
+
+            if (numeroInte == 2)
+            { numN = Random.Next(0, 51); }
+
+            else
+            {
+                if (numeroInte == 3)
+                { numN = Random.Next(0, 100); }
+
+                    else
+                    {
+                    if (numeroInte == 4)
+                        numN = Random.Next(0, 200);
+                    }
+                
+        }   }
 
 
 
-        }
+
+
+
+
+       
     }
 }

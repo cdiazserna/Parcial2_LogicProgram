@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "parcial2 Jonathan Garcia/1.0.0": {
+        "runtime": {
+          "parcial2 Jonathan Garcia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "parcial2 Jonathan Garcia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

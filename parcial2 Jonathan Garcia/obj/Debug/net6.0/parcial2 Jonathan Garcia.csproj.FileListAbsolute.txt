@@ -1,0 +1,14 @@
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\bin\Debug\net6.0\parcial2 Jonathan Garcia.exe
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\bin\Debug\net6.0\parcial2 Jonathan Garcia.deps.json
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\bin\Debug\net6.0\parcial2 Jonathan Garcia.runtimeconfig.json
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\bin\Debug\net6.0\parcial2 Jonathan Garcia.dll
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\bin\Debug\net6.0\parcial2 Jonathan Garcia.pdb
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.AssemblyInfoInputs.cache
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.AssemblyInfo.cs
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.csproj.CoreCompileInputs.cache
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.dll
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\refint\parcial2 Jonathan Garcia.dll
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.pdb
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\parcial2 Jonathan Garcia.genruntimeconfig.cache
+C:\repos visual studio\parcial2\parcial2 Jonathan Garcia\obj\Debug\net6.0\ref\parcial2 Jonathan Garcia.dll
