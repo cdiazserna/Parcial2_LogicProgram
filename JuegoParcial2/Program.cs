@@ -75,7 +75,7 @@
                     }
                     else if (numJugador1 == numOculto && numJugador2 == numOculto && numJugador3 == numOculto)
                     {
-                        Console.WriteLine("¡Ambos adivinaron! ¡Felicidades!");
+                        Console.WriteLine("¡Tenemos tres ganadores!");
                         Console.WriteLine($"El número oculto es: {numOculto}.");
                     }
 
