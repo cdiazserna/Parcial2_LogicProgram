@@ -14,7 +14,7 @@ namespace ResolucionParcial2
 
 
             int Numerojuego, min = 0, max, Numerointento  = 0, randomNumber = 0;
-            bool Ganador = false, isPlayAgain
+            bool Ganador = false, isPlayAgain;
             string resetGame = "";
 
             do
