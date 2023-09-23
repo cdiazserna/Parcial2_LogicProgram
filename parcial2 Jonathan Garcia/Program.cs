@@ -114,10 +114,10 @@ namespace Parcial2
                 if (nuevoTiro == "SI")
                 {
                     newCod = true;
-
+                    Console.Clear();
                 }
             }
-            while (true);
+            while (newCod == true);
 
     {
 
