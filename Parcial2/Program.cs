@@ -64,7 +64,15 @@ namespace Parcial2
 
             else Console.WriteLine("Para este juego deben participar minimo 2 jugadores maximo 4");
 
-            //4to calculos
+            // calculos
+
+           
+
+
+
+
+
+
 
             
 
