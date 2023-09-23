@@ -44,7 +44,7 @@ namespace JuegoParcial2
                 
                 while (iniciar == true)
 
-                Console.WriteLine("Escribe el número correcto");
+                Console.WriteLine("Escribe el número correcto: ");
                 intento = Convert.ToInt32(Console.ReadLine());
 
                 if ( aleatorio == intento)
@@ -53,7 +53,7 @@ namespace JuegoParcial2
                 }
                 else
                 {
-                    iniciar == true;
+                    iniciar = true;
                 }
             }
 
