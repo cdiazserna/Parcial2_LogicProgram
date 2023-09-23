@@ -5,14 +5,18 @@ public class parial2
     {
         int numeroAleatorio;
         int numeroIngresado;
-        int numeroJugadore;
+        int numeroJugadores;
         int turno;
         bool ganador;
         string respuesta;
 
         {
 
-            Console.WriteLine("cuantos jugadores van a jugar: ");
+            Console.WriteLine("cuantos jugadores van a jugar  (Mínimo 2 y máximo 4)\");\n");
+
+            numeroJugadores = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(" ");
             
 
         }
