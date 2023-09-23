@@ -38,7 +38,26 @@
                 Console.Write("Ingrese la cantidad de jugadores (entre 2 y 4): ");
                 int numJugadores = int.Parse(Console.ReadLine());
 
-                if (numJugadores < 2 || numJugadores > 4)  
+                if (numJugadores < 2 || numJugadores > 4)
+                {
+                    Console.WriteLine("Número de jugadores no válido. Debe ser entre 2 y 4.");
+                    continue;
+                }
+
+                int numeroSecreto;
+                int rangoMaximo;
+
+                // Paso 2: Determinar el rango según la cantidad de jugadores
+                if (numJugadores == 2)
+                {
+                    rangoMaximo = 50;
+                }
+
+
+
+
+
+
             } 
 
 
