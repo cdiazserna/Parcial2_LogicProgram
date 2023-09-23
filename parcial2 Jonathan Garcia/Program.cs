@@ -24,8 +24,9 @@ namespace Parcial2
             Random Random = new Random();
             if (numeroInte < 2) 
             {
-                Console.Write("El numero de integrantes debe ser mayor a 2 y menor a 4");
-                Console.Write("Por favor ingresar el numero de integrantes que desea participar: ");
+                Console.WriteLine("El numero de integrantes debe ser mayor a 2 y menor a 4");
+                Console.WriteLine("\n");
+                Console.WriteLine("Por favor ingresar el numero de integrantes que desea participar: ");
                 numeroInte = Convert.ToInt32(Console.ReadLine());
             }
             else 
@@ -33,6 +34,7 @@ namespace Parcial2
                 if (numeroInte > 4)
                 {
                     Console.WriteLine("El numero de integrantes debe ser mayor o igual a 2 y menor o igual a 4");
+                    Console.WriteLine("\n");
                     Console.WriteLine("Por favor ingresar el numero de integrantes que desea participar: ");
                     numeroInte = Convert.ToInt32(Console.ReadLine());
 
@@ -41,7 +43,9 @@ namespace Parcial2
             }
 
             if (numeroInte == 2)
-            { numN = Random.Next(0, 51); }
+            { 
+                numN = Random.Next(0, 51); 
+            }
 
             else
             {
@@ -55,6 +59,8 @@ namespace Parcial2
                     }
                 
         }   }
+
+
 
 
 
