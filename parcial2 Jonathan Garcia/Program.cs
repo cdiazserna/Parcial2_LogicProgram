@@ -13,7 +13,7 @@ namespace Parcial2
         static void Main(string[] args)
         {
             //Declaracion de variables
-            int numeroInte, numN;
+            int numeroInte, numN=0, numIngresado;
             
             //Generar numero aleatorio
 
@@ -58,8 +58,52 @@ namespace Parcial2
                         numN = Random.Next(0, 200);
                     }
                 
-        }   }
+            }
+            //Iniciar el ciclo de adivinar e4l numero
+            do
+            {
+                Console.WriteLine("\n");
+                Console.WriteLine("Ingrese el numero que cree que es el correcto:");
+                Console.WriteLine("\n");
+                numIngresado = Convert.ToInt32(Console.ReadLine());
 
+                if (numIngresado > numN)
+                {
+                    Console.WriteLine("\n");
+                    Console.WriteLine("MENOR");
+                    Console.WriteLine("\n");
+                }
+
+                else 
+                {
+                    if (numIngresado < numN)
+                    {
+                        Console.WriteLine("\n");
+                        Console.WriteLine("MAYOR");
+                        Console.WriteLine("\n");
+                    }
+                    else  
+                    {
+                        if (numIngresado == numN)
+                        {
+                            Console.WriteLine("\n");
+                            Console.WriteLine("¡HAS GANADO!”. Aquí ya finaliza el juego.");
+                            Console.WriteLine("\n");
+                        }
+
+                    }
+                }
+
+            }
+
+            while (numIngresado != numN);
+
+        }
+
+
+        
+
+    
 
 
 
