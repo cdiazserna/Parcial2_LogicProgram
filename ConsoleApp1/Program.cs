@@ -20,16 +20,16 @@ public class JuegoParcial2
         {
             while (numJugadores == 2)
             {
-                rand1.Next(0, 51);
+                int numAleatorio1 = rand1.Next(0, 51);
 
                 Console.WriteLine("Ingrese un número");
                 num = Convert.ToInt32(Console.ReadLine());
 
-                if (num > rand1)
+                if (num > numAleatorio1)
                 {
                     Console.WriteLine("El número es menor");
                 }
-                else if (num < rand1)
+                else if (num < numAleatorio1)
                 {
                     Console.WriteLine("El número es mayor");
                 }
@@ -40,16 +40,16 @@ public class JuegoParcial2
             }
             while (numJugadores == 3)
             {
-                rand2.Next(0, 100);
+                int numAleatorio2 = rand2.Next(0, 100);
 
                 Console.WriteLine("Ingrese un número");
                 num = Convert.ToInt32(Console.ReadLine());
 
-                if (num > rand2)
+                if (num > numAleatorio2)
                 {
                     Console.WriteLine("El número es menor");
                 }
-                else if (num < rand2)
+                else if (num < numAleatorio2)
                 {
                     Console.WriteLine("El número es mayor");
                 }
@@ -60,16 +60,16 @@ public class JuegoParcial2
             }
             while (numJugadores == 4)
             {
-                rand3.Next(0, 200);
+                int numAleatorio3 = rand3.Next(0, 200);
 
                 Console.WriteLine("Ingrese un número");
                 num = Convert.ToInt32(Console.ReadLine());
 
-                if (num > rand3)
+                if (num > numAleatorio3)
                 {
                     Console.WriteLine("El número es menor");
                 }
-                else if (num < rand3)
+                else if (num < numAleatorio3)
                 {
                     Console.WriteLine("El número es mayor");
                 }
