@@ -46,6 +46,42 @@
 
         } else if(numJugadores == 3){
             numOculto = numAzar.Next(0, 100);
+            do
+            {
+                Console.WriteLine("¡Que comience el juego!");
+                Console.WriteLine("Solo ingrese números del 0 al 50.\n");
+                Console.WriteLine("Jugador 1, ingrese su número: ");
+                numJugador1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Jugador 2, ingrese su número: ");
+                numJugador2 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Jugador 3, ingrese su número: ");
+                numJugador3 = int.Parse(Console.ReadLine());
+
+                if (numJugador1 == numOculto || numJugador2 == numOculto)
+                {
+
+                    if (numJugador1 == numOculto)
+                    {
+                        Console.WriteLine("¡Tenemos un ganador! ¡Felicidades Jugador 1!");
+                        Console.WriteLine($"El número que ingresaste es: {numJugador1} y el número oculto es: {numOculto}.");
+                    }
+                    else if (numJugador2 == numOculto)
+                    {
+                        Console.WriteLine("¡Tenemos un ganador! ¡Felicidades Jugador 2!");
+                        Console.WriteLine($"El número que ingresaste es: {numJugador2} y el número oculto es: {numOculto}.");
+                    }else if (numJugador3 == numOculto)  {
+                        Console.WriteLine("¡Tenemos un ganador! ¡Felicidades Jugador 3!");
+                        Console.WriteLine($"El número que ingresaste es: {numJugador3} y el número oculto es: {numOculto}.");
+                    }
+                    else if (numJugador1 == numOculto && numJugador2 == numOculto)
+                    {
+                        Console.WriteLine("¡Ambos adivinaron! ¡Felicidades!");
+                        Console.WriteLine($"El número oculto es: {numOculto}.");
+                    }
+
+                }
+            } while (numJugador1 >= 0 && numJugador1 <= 50 && numJugador2 >= 0 && numJugador2 <= 50);
+
         }
         else
         {
