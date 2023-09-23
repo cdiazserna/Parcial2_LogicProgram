@@ -4,6 +4,7 @@
     {
         Random numAzar = new Random();
         int numJugadores, numOculto;
+        int numJugador1, numJugador2, numJugador3, numJugador4;
 
         Console.WriteLine("¡Bienvenido al juego: Adivina el número!\n");
         Console.WriteLine("¿Cuántos jugadores van a participar? (Min: 2; Max: 4)");
@@ -11,7 +12,21 @@
 
         if (numJugadores == 2)
         {
+            
             numOculto = numAzar.Next(0, 50);
+
+            do
+            {
+                Console.WriteLine("¡Que comience el juego!");
+                Console.WriteLine("Solo ingrese números del 0 al 50.\n");
+                Console.WriteLine("Jugador 1, ingrese su número: ");
+                numJugador1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Jugador 2, ingrese su número: ");
+                numJugador2 = int.Parse(Console.ReadLine());
+
+                if(numOculto ==)
+            } while (numOculto >= 0 && numOculto <= 50);
+
         } else if(numJugadores == 3){
             numOculto = numAzar.Next(0, 100);
         }
@@ -19,10 +34,6 @@
         {
             numOculto = numAzar.Next(0, 200);
         }
-
-        do
-        {
-
-        }
+      
     }
 }
