@@ -2,6 +2,8 @@
 {
    static void Main()
     {
+        
+
         do { }while(true);
     }
 }
