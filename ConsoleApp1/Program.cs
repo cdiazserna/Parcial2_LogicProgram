@@ -18,7 +18,7 @@ public class JuegoParcial2
         {
             rand1.Next(0, 51);
 
-            Console.WriteLine("Ingrese el primer número");
+            Console.WriteLine("Ingrese un número");
             num = Convert.ToInt32(Console.ReadLine());
            
             if (num > rand1)
@@ -37,10 +37,42 @@ public class JuegoParcial2
         else if (numJugadores == 3)
         {
             rand2.Next(0, 100);
+
+            Console.WriteLine("Ingrese un número");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            if (num > rand2)
+            {
+                Console.WriteLine("El número es menor");
+            }
+            else if (num < rand2)
+            {
+                Console.WriteLine("El número es mayor");
+            }
+            else
+            {
+                Console.WriteLine("HAS GANADO");
+            }
         }
         else if (numJugadores == 4)
         {
             rand3.Next(0, 200);
+
+            Console.WriteLine("Ingrese un número");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            if (num > rand3)
+            {
+                Console.WriteLine("El número es menor");
+            }
+            else if (num < rand3)
+            {
+                Console.WriteLine("El número es mayor");
+            }
+            else
+            {
+                Console.WriteLine("HAS GANADO");
+            }
         }
     }
        
