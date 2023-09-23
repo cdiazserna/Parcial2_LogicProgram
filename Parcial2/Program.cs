@@ -9,29 +9,21 @@ namespace Parcial2
 
             Random random = new Random();
 
-            int NumParticipantes = 0, numGanador, jugador1, jugador2, jugador3, jugador4;
+            int NumJugadores = 0, numGanador, jugador1, jugador2, jugador3, jugador4;
             numGanador = random.Next(0, 100);
-            
-            Console.WriteLine("jugador 1 ingrese el número:  ");
-            Convert.ToInt32("Participante 1 ingrese el número:  ");
 
-            Console.WriteLine("Participante 2 ingrese el número:  ");
-
-            Console.WriteLine("Participante 3 ingrese el número:  ");
-
-            Console.WriteLine("Participante 4 ingrese el número:  ");
+            Console.WriteLine("Ingrese el numero de jugadores:  ");
+            NumJugadores = Convert.ToInt32(Console.ReadLine());
 
 
 
-
-
-
-            if (NumParticipantes == 2)
+            if (NumJugadores == 2)
             {
                 Console.WriteLine("jugador 1 ingrese el número:  ");
+                jugador1 = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("jugador 2 ingrese el número:  ");
-
+                jugador2 = Convert.ToInt32(Console.ReadLine());
 
             }
 
@@ -40,7 +32,14 @@ namespace Parcial2
 
             if (NumParticipantes == 3)
             {
+                Console.WriteLine("jugador 1 ingrese el número:  ");
+                jugador1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("jugador 2 ingrese el número:  ");
+                jugador2 = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("jugador 3 ingrese el número:  ");
+                jugador3 = Convert.ToInt32(Console.ReadLine());
 
             }
 
@@ -49,17 +48,32 @@ namespace Parcial2
 
             if (NumParticipantes == 4)
             {
-                Console.WriteLine("jugador 4 ingrese el número:  ");
+                Console.WriteLine("jugador 1 ingrese el número:  ");
+                jugador1 = Convert.ToInt32(Console.ReadLine());
 
+                Console.WriteLine("jugador 2 ingrese el número:  ");
+                jugador2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("jugador 3 ingrese el número:  ");
+                jugador3 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("jugador 4 ingrese el número:  ");
+                jugador4 = Convert.ToInt32(Console.ReadLine());
             }
 
 
             else Console.WriteLine("Para este juego deben participar minimo 2 jugadores maximo 4");
 
+            //3 pedir los valores porconsola 
+
+            
 
 
-            //c
-           
+            
+
+
+
+
 
         }
     }
