@@ -16,11 +16,11 @@ namespace Parcial2
             Console.WriteLine("------------Bienvenidos-----------\n");
             Console.WriteLine("Cuantos quieren jugar hoy: 2, 3 o 4 ");
             numJugadores = Convert.ToInt32(Console.ReadLine());
-            
-            if (numJugadores ==2)
+
+            if (numJugadores == 2)
             {
                 n = numrandom.Next(0, 50);
-                for (i = 0; i <= 50; i++ )
+                for (i = 0; i <= 50; i++)
                 {
                     Console.WriteLine("primer jugador ingresa tu numero entre 0 y 50:  ");
                     player1 = Convert.ToInt32(Console.ReadLine());
@@ -54,11 +54,11 @@ namespace Parcial2
                 }
 
 
-                }
-            else if (numJugadores ==3)
+            }
+            else if (numJugadores == 3)
             {
                 n = numrandom.Next(0, 100);
-                for (i = 0; i <= 50; i++)
+                for (i = 0; i <= 100; i++)
                 {
                     Console.WriteLine("primer jugador ingresa tu numero entre 0 y 100:  ");
                     player1 = Convert.ToInt32(Console.ReadLine());
@@ -92,11 +92,28 @@ namespace Parcial2
                     {
                         Console.WriteLine("El numero del segundo jugador es  menor");
                     }
+                    if (player3 == n)
+                    {
+                        Console.WriteLine("el tercer jugador a ganado");
+                    }
+                    else if (player3 < n)
+                    {
+                        Console.WriteLine("el numero del tercer jugador es mayor");
+                    }
+                    else
+                    {
+                        Console.WriteLine("El numero del tercer jugador es  menor");
+                    }
                 }
-                
-                
+
+
             }
+            else(numJugadores == 4)
+
+            
+
 
         }
     }
 
+}
