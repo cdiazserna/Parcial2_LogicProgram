@@ -32,7 +32,7 @@ namespace Parcial2
                         if (player1 == n)
                         {
                             Console.WriteLine("el primer jugador a ganado");
-
+                            break;
                         }
                         else if (player1 < n)
                         {
@@ -45,6 +45,7 @@ namespace Parcial2
                         if (player2 == n)
                         {
                             Console.WriteLine("el segundo jugador a ganado");
+                            break;
                         }
                         else if (player2 < n)
                         {
@@ -73,6 +74,7 @@ namespace Parcial2
                         if (player1 == n)
                         {
                             Console.WriteLine("el primer jugador a ganado");
+                            break;
 
                         }
                         else if (player1 < n)
@@ -86,6 +88,7 @@ namespace Parcial2
                         if (player2 == n)
                         {
                             Console.WriteLine("el segundo jugador a ganado");
+                            break;
                         }
                         else if (player2 < n)
                         {
@@ -98,6 +101,7 @@ namespace Parcial2
                         if (player3 == n)
                         {
                             Console.WriteLine("el tercer jugador a ganado");
+                            break;
                         }
                         else if (player3 < n)
                         {
@@ -127,6 +131,7 @@ namespace Parcial2
                         if (player1 == n)
                         {
                             Console.WriteLine("el primer jugador a ganado");
+                            break;
 
                         }
                         else if (player1 < n)
@@ -140,6 +145,7 @@ namespace Parcial2
                         if (player2 == n)
                         {
                             Console.WriteLine("el segundo jugador a ganado");
+                            break;
                         }
                         else if (player2 < n)
                         {
@@ -152,6 +158,7 @@ namespace Parcial2
                         if (player3 == n)
                         {
                             Console.WriteLine("el tercer jugador a ganado");
+                            break;
                         }
                         else if (player3 < n)
                         {
@@ -164,6 +171,7 @@ namespace Parcial2
                         if (player4 == n)
                         {
                             Console.WriteLine("el cuarto jugador a ganado");
+                            break;
                         }
                         else if (player4 < n)
                         {
