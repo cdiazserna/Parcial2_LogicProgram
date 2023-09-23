@@ -12,7 +12,7 @@ public class parial2
         bool ganador;
         string respuesta;
 
-        Random random = new Random();
+            Random random = new Random();
 
 
         {
@@ -22,27 +22,15 @@ public class parial2
 
             numeroJugadores = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("ingrese un numero: ");
+            while (numeroJugadores < 2 || numeroJugadores > 4)
+            {
 
-                while (numeroJugadores < 2 || numeroJugadores > 4)
-                {
-                    Console.WriteLine("El número de jugadores debe ser entre 2 y 4. Inténtalo de nuevo.");
-                    numeroJugadores = Convert.ToInt32 (Console.ReadLine());
-                {
-                        numeroAleatorio = random.Next(0, 51); // Entre 0 y 50
-                        break;
-                   
-                        numeroAleatorio = random.Next(0, 101); // Entre 0 y 100
-                        break;
-              
-                        numeroAleatorio = random.Next(0, 201); // Entre 0 y 200
-                        break;
-        
-                        numeroAleatorio = 0; // Valor por defecto
-                        break;
+                Console.WriteLine("El número de jugadores debe ser entre 2 y 4. Inténtalo de nuevo.");
+                numeroJugadores = Convert.ToInt32(Console.ReadLine());
+            }
 
-
-                    }
+           
+          
 
 
 
@@ -55,6 +43,17 @@ public class parial2
 
 
 
-                }
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
