@@ -6,12 +6,14 @@
         String continuarJugando;
         bool jugarVariable = true, partidaIniciada = true;
         Random aleatorio = new Random();
+
+        Console.WriteLine("Cantidad de integrantes para jugar es de minimo 2 maximo 4");
+        cantJugadores = Convert.ToInt32(Console.ReadLine());
         do
         {
             
-            Console.WriteLine("Cantidad de integrantes para jugar es de minimo 2 maximo 4");
-            cantJugadores = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(cantJugadores);
+            
+            
             if (cantJugadores >= 2 && cantJugadores <= 4)
             {
 
@@ -49,7 +51,7 @@
                 else if (cantJugadores == 3)
                 {
                     int jugadores = 3;
-                    numeroGanador = aleatorio.Next(0, 50);
+                    numeroGanador = aleatorio.Next(0, 100);
                     while (partidaIniciada)
                     {
 
@@ -89,7 +91,7 @@
                 else if (cantJugadores == 4)
                 {
                     int jugadores = 4;
-                    numeroGanador = aleatorio.Next(0, 50);
+                    numeroGanador = aleatorio.Next(0, 200);
                     while (partidaIniciada)
                     {
 
@@ -130,18 +132,6 @@
                         }
                     }
                 }
-
-
-                Console.WriteLine("Desea seguir Jugando s/n");
-                continuarJugando = Console.ReadLine().ToLower();
-
-                if (continuarJugando == "n")
-                {
-                    jugarVariable = false;
-                }
-               
-
-
             }
             else {
                 Console.WriteLine("El número de participantes que jugarán debe ser de :" +
@@ -149,9 +139,15 @@
                 jugarVariable = true;
             }
 
-    
 
-            
+            Console.WriteLine("Desea seguir Jugando s/n");
+            continuarJugando = Console.ReadLine().ToLower();
+
+            if (continuarJugando == "n")
+            {
+                jugarVariable = false;
+            }
+
 
         } while (jugarVariable);
     }
