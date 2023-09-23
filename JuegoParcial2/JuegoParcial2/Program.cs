@@ -39,20 +39,25 @@ namespace JuegoParcial2
                 }
                 if (participantes == 4)
                 {
+                    aleatorio = numero.Next(0, 200);
+                }
+                
+                
+                Console.WriteLine("Escribe el número correcto");
+                intento = Convert.ToInt32(Console.ReadLine());
 
+                if ( aleatorio == intento)
+                {
+                    Console.WriteLine("Ganaste");
                 }
             }
 
             
-           
+          
+
             
 
-            while (iniciar == true)
-
-            Console.WriteLine("Escribe el número correcto");
-            intento = Convert.ToInt32(Console.ReadLine());
-
-            if (numero == intento)
+            
 
 
 
