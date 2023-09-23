@@ -9,6 +9,10 @@ namespace ResolucionParcial2
     {
         static void Main(string[] args)
         {
+            //declaro variables del programa//
+            //se declara variable boolena de ganador //
+
+
             int Numerojuego, min = 0, max, Numerointento  = 0, randomNumber = 0;
             bool Ganador = false, isPlayAgain;
             string resetGame = "";
@@ -66,7 +70,7 @@ namespace ResolucionParcial2
         {
             Random random = new Random();
             max = 50;
-
+            //se hace sw con cliclo case para evaluar y quede mas accequible en los ingresos//
             switch (Numerojuego)
             {
                 case 2:
