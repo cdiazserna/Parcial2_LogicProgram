@@ -76,6 +76,8 @@ public class parial2
                        
                         Console.WriteLine("MENOR");
                         turno++; 
+
+
                     }
                 }
 
