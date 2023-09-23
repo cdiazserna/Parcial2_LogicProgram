@@ -116,9 +116,4 @@ namespace ResolucionParcial2
     }
 }
 
-
-
-
-
-
-
+//solucion
