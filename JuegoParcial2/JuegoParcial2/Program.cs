@@ -10,6 +10,7 @@ namespace JuegoParcial2
 
             double  intento, participantes;
             bool iniciar = true;
+            bool empezar = true;
             
             Random numero = new Random();
 
@@ -18,20 +19,45 @@ namespace JuegoParcial2
             Console.WriteLine("Escribe la cantidad de participantes: ");
             participantes = Convert.ToInt32(Console.ReadLine());
 
-            if (participantes <1 )
+            if (participantes < 1 ^ participantes > 4) ;
             {
+                Console.WriteLine("Cantidad de participantes incorrecta, mín.1 y máx. 4");
 
+                empezar = false;
+
+            }
+            if (participantes == 1) ;
+
+            numero = numero.Next()
+            {
 
             }
 
-            while () ;
+
+            while (!empezar) ;
+            {
+                Console.WriteLine("ULTIMA OPORTUNIDAD");
+                Console.WriteLine("Escribe la cantidad de participantes: ");
+                participantes = Convert.ToInt32(Console.ReadLine());
+
+                if (participantes < 1 ^ participantes > 4) ;
+                {
+                    Console.WriteLine("Cantidad de participantes incorrecta, mín.1 y máx. 4");
+
+  
+
+                }
+                
+                
+            }
+            //while () ;
                {
 
 
             }
 
 
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
