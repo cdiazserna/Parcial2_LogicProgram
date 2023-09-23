@@ -13,7 +13,10 @@ namespace juegoparcial2
 
             Console.Write("Ingrese el numero de jugadores, maximo 4 ");
             numjugadores = Convert.ToInt32(Console.ReadLine());
+
+
             if (numjugadores == 2)
+                
             {
                 Random r = new Random();
 
@@ -21,7 +24,9 @@ namespace juegoparcial2
                 Console.WriteLine(r.Next(0, 51));
 
                 Console.ReadLine();
+              
             }
+
             if (numjugadores == 3)
             {
                 Random r = new Random();
@@ -31,8 +36,7 @@ namespace juegoparcial2
 
                 Console.ReadLine();
             }
-            else
-                (numjugadores == 4)
+            if (numjugadores == 4)
             {
                 Random r = new Random();
 
@@ -42,7 +46,7 @@ namespace juegoparcial2
                 Console.ReadLine();
 
             }
-
+            
 
 
                 Console.Write("Ingrese un numero entero del 1 al 100 ");
