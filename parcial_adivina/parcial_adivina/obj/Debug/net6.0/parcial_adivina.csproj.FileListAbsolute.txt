@@ -1,0 +1,15 @@
+C:\parcialAdivina\parcial_adivina\parcial_adivina\bin\Debug\net6.0\parcial_adivina.exe
+C:\parcialAdivina\parcial_adivina\parcial_adivina\bin\Debug\net6.0\parcial_adivina.deps.json
+C:\parcialAdivina\parcial_adivina\parcial_adivina\bin\Debug\net6.0\parcial_adivina.runtimeconfig.json
+C:\parcialAdivina\parcial_adivina\parcial_adivina\bin\Debug\net6.0\parcial_adivina.dll
+C:\parcialAdivina\parcial_adivina\parcial_adivina\bin\Debug\net6.0\parcial_adivina.pdb
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.csproj.AssemblyReference.cache
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.GeneratedMSBuildEditorConfig.editorconfig
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.AssemblyInfoInputs.cache
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.AssemblyInfo.cs
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.csproj.CoreCompileInputs.cache
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.dll
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\refint\parcial_adivina.dll
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.pdb
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\parcial_adivina.genruntimeconfig.cache
+C:\parcialAdivina\parcial_adivina\parcial_adivina\obj\Debug\net6.0\ref\parcial_adivina.dll
