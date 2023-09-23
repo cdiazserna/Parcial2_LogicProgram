@@ -12,6 +12,15 @@ namespace JuegoParcial2
             
             Random numero = new Random();
 
+            Console.WriteLine("______JUEGO ADIVINA EL NÚMERO_______");
+
+            Console.WriteLine("Escribe la cantidad de participantes: ");
+            while ();
+               {
+
+
+            }
+
 
             Console.WriteLine("Hello World!");
         }
