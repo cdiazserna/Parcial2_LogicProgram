@@ -12,8 +12,9 @@ public class parial2
 
         {
 
-            Console.Write("cuantos jugadores van a jugar: ");
+            Console.WriteLine("cuantos jugadores van a jugar: ");
             
+
         }
     }
 }
