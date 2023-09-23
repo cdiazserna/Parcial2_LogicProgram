@@ -10,14 +10,33 @@ public class parial2
         bool ganador;
         string respuesta;
 
+        
         {
 
             Console.WriteLine("cuantos jugadores van a jugar  (Mínimo 2 y máximo 4)\");\n");
 
-            numeroJugadores = int.Parse(Console.ReadLine());
+            numeroJugadores = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(" ");
-            
+            Console.WriteLine("ingrese un numero: ");
+
+                while (numeroJugadores < 2 || numeroJugadores > 4)
+                {
+                    Console.WriteLine("El número de jugadores debe ser entre 2 y 4. Inténtalo de nuevo.");
+                    numeroJugadores = Convert.ToInt32 (Console.ReadLine());
+
+                    
+                }
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
