@@ -2,6 +2,6 @@
 {
    static void Main()
     {
-        Console.WriteLine("hOLA MUNDO");
+        do { }while(true);
     }
 }
