@@ -70,17 +70,26 @@ namespace ResolucionParcial2
         {
             Random random = new Random();
             max = 50;
+
             //se hace sw con cliclo case para evaluar y quede mas accequible en los ingresos//
+
             switch (Numerojuego)
             {
-                case 2:
+                //si participan 2 jugdores el numero N aleatorio se genera entre 0 y 50//
+                case 1:
                     randomNumber = random.Next(min, max);
                     break;
-                case 3:
+
+                //si participan 3 jugdores el numero N aleatorio se genera entre 0 y 100//
+
+                case 2:
                     max = 100;
                     randomNumber = random.Next(min, max);
                     break;
-                case 4:
+
+                //si participan 4 jugdores el numero N aleatorio se genera entre 0 y 200//
+
+                case 3:
                     max = 200;
                     randomNumber = random.Next(min, max);
                     break;
