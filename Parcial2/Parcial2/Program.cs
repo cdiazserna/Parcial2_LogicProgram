@@ -61,8 +61,17 @@ public class parial2
                     if (numeroIngresado == numeroAleatorio)
                     {
 
-                        Console.WriteLine("¡HAS GANADO!");
-                        ganador = true;
+                         Console.WriteLine("¡HAS GANADO!");
+                         ganador = true;
+                       
+
+
+
+
+
+
+
+
 
                     }
 
