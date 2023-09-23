@@ -52,9 +52,22 @@
                 {
                     rangoMaximo = 50;
                 }
+                else if (numJugadores == 3)
+                {
+                    rangoMaximo = 100;
+                }
+                else
+                {
+                    rangoMaximo = 200;
+                }
+                // Paso 3: Generar un número aleatorio dentro del rango
+                Random random = new Random();
+                numeroSecreto = random.Next(0, rangoMaximo + 1);
 
+                bool haGanado = false;
+                int intentos = 0;
 
-
+                Console.WriteLine($"Se ha generado un número entre 0 y {rangoMaximo}. ¡Adivina el número!");
 
 
 
