@@ -103,9 +103,9 @@ namespace ResolucionParcial2
 
         private static void PaintMenu(out int numberPlayers)
         {
-            Console.WriteLine("*************************");
+            Console.WriteLine("______________________");
             Console.WriteLine("*JUEGO ADIVINA EL NÚMERO*");
-            Console.WriteLine("*************************");
+            Console.WriteLine("__________________");
             Console.WriteLine("¿Cuántos participantes jugarán?");
             Console.WriteLine("Dos jugadores");
             Console.WriteLine("Tres jugadores");
