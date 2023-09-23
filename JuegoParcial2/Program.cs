@@ -43,9 +43,20 @@
 
                     if (numJugador1 < numOculto)
                     {
-                        Console.WriteLine("El número que ingresó es menor que el número oculto");
+                        Console.WriteLine("Jugador 1; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
                     } else if(numJugador2 < numOculto)
-                    
+                    {
+                        Console.WriteLine("Jugador 2; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    if (numJugador1 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 1; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador2 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 2; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+
                 }
             } while (numJugador1 >= 0 && numJugador1 <= 50 && numJugador2 >= 0 && numJugador2 <=50);
 
@@ -83,6 +94,31 @@
                         Console.WriteLine("¡Tenemos tres ganadores!");
                         Console.WriteLine($"El número oculto es: {numOculto}.");
                     }
+                    if (numJugador1 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 1; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador2 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 2; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador3 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 3; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    if (numJugador1 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 1; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador2 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 2; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador3 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 3; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+
 
                 }
             } while (numJugador1 >= 0 && numJugador1 <= 100 && numJugador2 >= 0 && numJugador2 <= 100 && numJugador3 >= 0 && numJugador3 <= 100);
@@ -131,6 +167,38 @@
                     {
                         Console.WriteLine("¡Tenemos cuatro ganadores!");
                         Console.WriteLine($"El número oculto es: {numOculto}.");
+                    }
+                    if (numJugador1 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 1; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador2 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 2; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador3 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 3; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador4 < numOculto)
+                    {
+                        Console.WriteLine("Jugador 4; el número que ingresó es menor que el número oculto. ¡Tú puedes!");
+                    }
+                    if (numJugador1 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 1; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador2 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 2; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador3 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 3; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
+                    }
+                    else if (numJugador4 > numOculto)
+                    {
+                        Console.WriteLine("Jugador 4; el número que ingresó es mayor que el número oculto. ¡Tú puedes!");
                     }
 
                 }
