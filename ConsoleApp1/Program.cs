@@ -81,7 +81,7 @@ public class JuegoParcial2
             Console.WriteLine(String.Format("Desea jugar de nuevo? (s/n)");
             respuesta = Console.ReadLine();
 
-            if (!respuesta = "s") ;
+            if (respuesta == "s") ;
 
             continuar = false;
         }
