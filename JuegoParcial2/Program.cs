@@ -26,11 +26,21 @@
 
                 if(numJugador1 == numOculto || numJugador2 == numOculto)
                 {
+
                     if (numJugador1 == numOculto)
                     {
                         Console.WriteLine("¡Tenemos un ganador! ¡Felicidades Jugador 1!");
-                        Console.WriteLine($"El número que ingresaste es: {numJugador1} y el número oculto es: {numOculto}.")
+                        Console.WriteLine($"El número que ingresaste es: {numJugador1} y el número oculto es: {numOculto}.");
+                    } else if(numJugador2 == numOculto)
+                    {
+                        Console.WriteLine("¡Tenemos un ganador! ¡Felicidades Jugador 2!");
+                        Console.WriteLine($"El número que ingresaste es: {numJugador2} y el número oculto es: {numOculto}.");
+                    }else if(numJugador1 == numOculto && numJugador2 == numOculto)
+                    {
+                        Console.WriteLine("¡Ambos adivinaron! ¡Felicidades!");
+                        Console.WriteLine($"El número oculto es: {numOculto}.");
                     }
+                    
                 }
             } while (numJugador1 >= 0 && numJugador1 <= 50 && numJugador2 >= 0 && numJugador2 <=50);
 
