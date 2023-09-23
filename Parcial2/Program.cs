@@ -7,24 +7,52 @@ namespace Parcial2
         static void Main(string[] args)
         {// declaracion de mis variables
 
-            int NumParticipantes, numGanador;
+            Random random = new Random();
 
-            if (NumParticipantes < 2 )
+            int NumParticipantes = 0, numGanador;
+            numGanador = random.Next(0, 100);
+
+            Console.WriteLine("Participante 1 ingrese el número:  ");
+            Console.WriteLine("Participante 2 ingrese el número:  ");
+            Console.WriteLine("Participante 3 ingrese el número:  ");
+            Console.WriteLine("Participante 4 ingrese el número:  ");
+
+
+
+
+
+
+            if (NumParticipantes == 2)
             {
-                else Console.WriteLine()
+                numGanador = random.Next(0,50);
+                
+            }
+
+
+            else Console.WriteLine("Para este juego deben participar minimo 2 jugadores maximo 4");
+
+            if (NumParticipantes == 3)
+            {
+                numGanador = random.Next(0, 100);
 
             }
 
-            Console.Write("Participante #1 ingrese el número:  ");
-            Console.Write("Participante #2 ingrese el número:  ");
-            Console.Write("Participante #3 ingrese el número:  ");
-            Console.Write("Participante #4 ingrese el número:  ");
-            // Cálculos (procesos)
 
-            
+            else Console.WriteLine("Para este juego deben participar minimo 2 jugadores maximo 4");
+
+            if (NumParticipantes == 4)
+            {
+                numGanador = random.Next(0, 200);
+
+            }
+
+
+            else Console.WriteLine("Para este juego deben participar minimo 2 jugadores maximo 4");
 
 
 
+            //c
+           
 
         }
     }
