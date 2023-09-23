@@ -63,21 +63,37 @@ public class parial2
 
                          Console.WriteLine("¡HAS GANADO!");
                          ganador = true;
-                       
-
-
-
-
-
-
-
-
-
+                        ganador = true;
                     }
-
-
-
+                    else if (numeroIngresado < numeroAleatorio)
+                    {
+                    
+                        Console.WriteLine("MAYOR");
+                        turno++; 
+                    }
+                    else if (numeroIngresado > numeroAleatorio)
+                    {
+                       
+                        Console.WriteLine("MENOR");
+                        turno++; 
+                    }
                 }
+
+
+
+
+
+
+
+
+
+
+
+            }
+
+
+
+        }
             }
 
 
