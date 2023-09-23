@@ -14,7 +14,8 @@ public class JuegoParcial2
         Console.WriteLine("Ingrese el número de jugadores de 2 a 4: ");
         numJugadores = Convert.ToInt32(Console.ReadLine());
 
-        if (numJugadores == 2)
+
+        while (numJugadores == 2)
         {
             rand1.Next(0, 51);
 
@@ -34,7 +35,7 @@ public class JuegoParcial2
                 Console.WriteLine("HAS GANADO");
             }
         }
-        else if (numJugadores == 3)
+        while (numJugadores == 3)
         {
             rand2.Next(0, 100);
 
@@ -54,7 +55,7 @@ public class JuegoParcial2
                 Console.WriteLine("HAS GANADO");
             }
         }
-        else if (numJugadores == 4)
+        while (numJugadores == 4)
         {
             rand3.Next(0, 200);
 
