@@ -11,7 +11,9 @@ namespace JuegoParcial2
 
             Random numeroRandom = new Random();
 
-            int numeroJugadores, numeroEscogido;
+            int numeroJugadores, numeroEscogido, numeroAleatorio;
+
+      
 
             //Proceso del juego
 
@@ -23,11 +25,34 @@ namespace JuegoParcial2
 
             numeroJugadores = Convert.ToInt32(Console.ReadLine());
 
+            numeroAleatorio = numeroRandom.Next(0,200 );
+
+            if (numeroJugadores == 2)
+            {
+
+                numeroAleatorio = numeroRandom.Next(0, 50);
+
+            } else if(numeroJugadores == 3){
+
+                numeroAleatorio = numeroRandom.Next(0, 100);
+
+            } else if (numeroJugadores == 4){
+
+                numeroAleatorio = numeroRandom.Next(0, 200);
+
+            } else{
+
+                Console.WriteLine("Ingreso un número de jugadores no aceptado");
+
+            }
+
+
+            Console.WriteLine("La maquina ha escogido el número");
 
             for (int i = 2;i <= numeroJugadores; i++)
             {
 
-                
+                Console.WriteLine("Jugador numero ")
 
             }
             
