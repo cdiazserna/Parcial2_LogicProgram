@@ -9,15 +9,15 @@ namespace ResolucionParcial2
     {
         static void Main(string[] args)
         {
-            int numberPlayers, min = 0, max, numberAttempt = 0, randomNumber = 0;
-            bool hasWinner = false, isPlayAgain;
+            int Numerojuego, min = 0, max, Numerointento  = 0, randomNumber = 0;
+            bool Ganador = false, isPlayAgain;
             string resetGame = "";
 
             do
             {
-                PaintMenu(out numberPlayers);
-                randomNumber = GenerateRandomNumber(min, out max, randomNumber, numberPlayers);
-                PlayGame(numberPlayers, randomNumber, numberAttempt, min, max, hasWinner);
+                PaintMenu(out Numerojuego);
+                randomNumber = GenerateRandomNumber(min, out max, randomNumber, Numerojuego);
+                PlayGame(Numerojuego, randomNumber, Numerointento, min, max, Ganador);
                 isPlayAgain = PlayAgain(resetGame);
             } while (isPlayAgain);
         }
@@ -26,6 +26,83 @@ namespace ResolucionParcial2
             Console.WriteLine("Si quieren jugar de nuevo digita YES o NO para finalizar");
             resetGame = Console.ReadLine();
             Console.Clear();
+            if (resetGame.ToLower() == "YES")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        private static void PlayGame(int Numerojuego, int randomNumber, int Numerointento, int min, int max, bool hasWinner)
+        {
+            do
+            {
+                for (int i = 1; i <= Numerojuego; i++)
+                {
+                    Console.WriteLine(String.Format("Jugardor #{0}, lanza un número que esté entre {1} y {2}", i, min, max));
+                    Numerointento = Convert.ToInt32(Console.ReadLine());
+
+                    if (Numerointento > randomNumber)
+                    {
+                        Console.WriteLine("MENOR");
+                    }
+                    else if (Numerointento < randomNumber)
+                    {
+                        Console.WriteLine("MAYOR");
+                    }
+                    else
+                    {
+                        Console.WriteLine("¡Has Ganado!");
+                        hasWinner = true;
+                        break;
+                    }
+                }
+            } while (!hasWinner);
+        }
+
+        private static int GenerateRandomNumber(int min, out int max, int randomNumber, int Numerojuego)
+        {
+            Random random = new Random();
+            max = 50;
+
+            switch (Numerojuego)
+            {
+                case 2:
+                    randomNumber = random.Next(min, max);
+                    break;
+                case 3:
+                    max = 100;
+                    randomNumber = random.Next(min, max);
+                    break;
+                case 4:
+                    max = 200;
+                    randomNumber = random.Next(min, max);
+                    break;
+                default:
+                    Console.WriteLine("Ingrese una opción válida.");
+                    break;
+            }
+
+            return randomNumber;
+        }
+
+        private static void PaintMenu(out int numberPlayers)
+        {
+            Console.WriteLine("*************************");
+            Console.WriteLine("*JUEGO ADIVINA EL NÚMERO*");
+            Console.WriteLine("*************************");
+            Console.WriteLine("¿Cuántos participantes jugarán?");
+            Console.WriteLine("Dos jugadores");
+            Console.WriteLine("Tres jugadores");
+            Console.WriteLine("Cuatro jugadores");
+            Console.WriteLine("Digite el número de jugadores\n");
+            numberPlayers = Convert.ToInt32(Console.ReadLine());
+        }
+    }
+}
+
 
 
 
