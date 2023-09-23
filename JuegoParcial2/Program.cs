@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+        static void Main(string[] args)
+{
+    Random random = new Random();
+    int min = 1;
+    int max = 10;
+}
