@@ -80,10 +80,10 @@ namespace JuegoParcial2
 
                 }
 
-                Console.WriteLine("¿Desea seguir jugando? (S/N)");
+                Console.WriteLine("¿Desea seguir jugando? (s/n)");
                 jugarDeNuevo = Convert.ToString(Console.ReadLine());
 
-                if (jugarDeNuevo != "S")
+                if (jugarDeNuevo != "s")
                 {
                     volverJugar = false;
                 }
