@@ -1,0 +1,15 @@
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\bin\Debug\net6.0\JuegoParcial2.exe
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\bin\Debug\net6.0\JuegoParcial2.deps.json
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\bin\Debug\net6.0\JuegoParcial2.runtimeconfig.json
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\bin\Debug\net6.0\JuegoParcial2.dll
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\bin\Debug\net6.0\JuegoParcial2.pdb
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.csproj.AssemblyReference.cache
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.AssemblyInfoInputs.cache
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.AssemblyInfo.cs
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.csproj.CoreCompileInputs.cache
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.dll
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\refint\JuegoParcial2.dll
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.pdb
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\JuegoParcial2.genruntimeconfig.cache
+C:\Reposproject\Parcial2\JuegoParcial2\JuegoParcial2\obj\Debug\net6.0\ref\JuegoParcial2.dll
