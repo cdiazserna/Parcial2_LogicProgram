@@ -42,13 +42,18 @@ namespace JuegoParcial2
                     aleatorio = numero.Next(0, 200);
                 }
                 
-                
+                while (iniciar == true)
+
                 Console.WriteLine("Escribe el número correcto");
                 intento = Convert.ToInt32(Console.ReadLine());
 
                 if ( aleatorio == intento)
                 {
                     Console.WriteLine("Ganaste");
+                }
+                else
+                {
+                    iniciar == true;
                 }
             }
 
