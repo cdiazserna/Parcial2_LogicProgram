@@ -14,7 +14,7 @@
         {
             
             numOculto = numAzar.Next(0, 50);
-
+           
             do
             {
                 Console.WriteLine("¡Que comience el juego!");
@@ -40,6 +40,11 @@
                         Console.WriteLine("¡Ambos adivinaron! ¡Felicidades!");
                         Console.WriteLine($"El número oculto es: {numOculto}.");
                     }
+
+                    if (numJugador1 < numOculto)
+                    {
+                        Console.WriteLine("El número que ingresó es menor que el número oculto");
+                    } else if(numJugador2 < numOculto)
                     
                 }
             } while (numJugador1 >= 0 && numJugador1 <= 50 && numJugador2 >= 0 && numJugador2 <=50);
