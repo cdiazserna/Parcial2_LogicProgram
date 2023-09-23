@@ -3,7 +3,7 @@
     static void Main(string[] args)
     {
         //declaracion variables
-        int cantidadJugadores,rango1, rango2, rango3;
+        int cantidadJugadores, rango1, rango2, rango3, i ;
         bool salir = true;
         Random random = new Random();
         cantidadJugadores = random.Next(2, 4);
@@ -14,7 +14,23 @@
         //proceso
         while(salir)
         {
+            for(i=1; i<=cantidadJugadores; i++)
+            {
+                if(cantidadJugadores == 2)
+                {
 
+
+                }
+                else if (cantidadJugadores == 3)
+                {
+
+                }
+                else
+                {
+
+                }
+                    
+            }
 
         }
 
