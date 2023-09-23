@@ -24,8 +24,15 @@
                 Console.WriteLine("Jugador 2, ingrese su número: ");
                 numJugador2 = int.Parse(Console.ReadLine());
 
-                if(numOculto ==)
-            } while (numOculto >= 0 && numOculto <= 50);
+                if(numJugador1 == numOculto || numJugador2 == numOculto)
+                {
+                    if (numJugador1 == numOculto)
+                    {
+                        Console.WriteLine("¡Tenemos un ganador! ¡Felicidades Jugador 1!");
+                        Console.WriteLine($"El número que ingresaste es: {numJugador1} y el número oculto es: {numOculto}.")
+                    }
+                }
+            } while (numJugador1 >= 0 && numJugador1 <= 50 && numJugador2 >= 0 && numJugador2 <=50);
 
         } else if(numJugadores == 3){
             numOculto = numAzar.Next(0, 100);
